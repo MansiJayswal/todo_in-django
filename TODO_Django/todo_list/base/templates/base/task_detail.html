@@ -1,0 +1,10 @@
+<h1>Task :{{task.title}}</h1>
+<h4>description :{{task.description}}</h4>
+
+<h5>is it completed? {{task.complete}}</h5>
+
+{% if task.complete %}
+    <p>congratulations , good job</p>
+{%else%}
+    <p>aww! go and complete it now</p>
+{%endif%}

@@ -1,0 +1,12 @@
+--> model name which is created as table in databse - Task
+
+--> columns in tables are:
+        user  
+        title 
+        description 
+        complete
+        created
+
+-->class name : TaskList
+
+
